@@ -11,11 +11,11 @@ void main() {
   print(numbers); //[] tomar una posicion del listado base'0' 
   print(numbers[3]);
 
-  final masNumeros = List.generate(30, (index) => index);
+  final masNumeros = List.generate(30, (int index) => index);
   print(masNumeros);
 
- /* List.List.generate(20, (index) => index): 
- el código genera una lista de longitud 20, donde cada elemento tiene el mismo valor que su índice correspondiente. Por ejemplo, el primer elemento de la lista será 0, el segundo será 1, el tercero será 2, y así sucesivamente hasta el elemento 19. */
+ /* List.generate(30, (index) => index): 
+ el código genera una lista de longitud 30, donde cada elemento tiene el mismo valor que su índice correspondiente. Por ejemplo, el primer elemento de la lista será 0, el segundo será 1, el tercero será 2, y así sucesivamente hasta el elemento 19. */
 
 
 

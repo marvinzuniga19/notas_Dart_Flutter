@@ -1,4 +1,4 @@
-//MAP: Es un diccionario.
+//MAP: es una colección de datos pares, clave-valor, donde cada clave única se asocia con un valor
 
 void main(){
 
@@ -10,10 +10,10 @@ void main(){
 
   // Map <String, dynamic> personas: para asignar el tipo de dato que el mapa tendra
 
-  print(personas['edad']); //[] para obtener elementos dentro del MAP
+  print('Persona: ${personas ['estado civil']}'); //[] para obtener elementos dentro del MAP
 
-  personas.addAll({'segundoNombre': 'Juan'});
-  print(personas);
+  //personas.addAll({'segundoNombre': 'Juan'});
+  //print(personas);
 }
 
 /* personas.addAll({'segundoNombre': 'Juan'})
