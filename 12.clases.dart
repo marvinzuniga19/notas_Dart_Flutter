@@ -11,6 +11,7 @@ class Heroe {
   String name;
   String power;
 
+  //construcctor 
   Heroe({required this.name, required this.power}) {}
 
   @override //sobreescribir
