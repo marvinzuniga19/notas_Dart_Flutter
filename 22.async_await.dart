@@ -11,7 +11,7 @@ void main() async {
   print('fin del programa');
 }
 
-Future<String> httpGet(String url) async {
+Future<String> httpGet(String url) async { 
   await Future.delayed(Duration(seconds: 2));
   throw 'Error en la peticion';
 
